@@ -1,0 +1,30 @@
+.small {
+  height: 50px;
+  width: 50px;
+}
+
+.medium {
+  height: 100px;
+  width: 100px;
+}
+
+.large {
+  height: 200px;
+  width: 200px;
+}
+
+.loader {
+  border: 10px solid red;
+  border-radius: 50%;
+  animation: loader 2s linear infinite;
+  border-color: #f00 #fff #fff #fff;
+}
+
+@keyframes loader {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
